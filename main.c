@@ -25,7 +25,7 @@ int main()
         motor(3,-100);
     }
     go_forward(200);
-    set_servo_position(0,1200);
+    set_servo_position(0,1200); 
     msleep(300);
     
     motor(0,-100);
